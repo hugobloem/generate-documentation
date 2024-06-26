@@ -1,0 +1,9 @@
+- id: generate-documentation
+  name: Generate documentation
+  description: "Generates documentation using Pydoc-Markdown"
+  entry: ./build_documentation.py
+  language: script
+  types_or: [python, pyi]
+  args: ["-f"]
+  pass_filenames: true
+  additional_dependencies: []

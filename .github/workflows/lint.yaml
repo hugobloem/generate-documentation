@@ -1,0 +1,33 @@
+name: "Lint"
+
+on:
+  pull_request:
+    branches:
+      - "main"
+      - "dev"
+
+jobs:
+  ruff:
+    name: "Ruff"
+    runs-on: "ubuntu-latest"
+    strategy:
+      max-parallel: 5
+      matrix:
+        python-version: ["3.11", "3.12", "3.13"]
+
+    steps:
+        - name: "Checkout the repository"
+          uses: "actions/checkout@v4"
+
+        - name: "Set up Python"
+          uses: actions/setup-python@v5
+          with:
+            python-version: "3.11"
+
+        - name: "Install requirements"
+          run: |
+            python3 -m pip install uv
+            python3 -m uv pip install -r requirements.txt
+
+        - name: "Run"
+          run: python3 -m ruff check .
