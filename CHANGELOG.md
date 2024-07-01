@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/hugobloem/generate-documentation/compare/v0.1.0...v0.1.1) (2024-07-01)
+
+
+### 🐛 Bugfixes
+
+* :bug: change pre-commit hook to use python command ([#4](https://github.com/hugobloem/generate-documentation/issues/4)) ([1739e55](https://github.com/hugobloem/generate-documentation/commit/1739e5598fd78bcaa15becdf5808661ec3c343e5))
+
 ## 0.1.0 (2024-06-26)
 
 
