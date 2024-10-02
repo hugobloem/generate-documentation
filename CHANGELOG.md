@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/hugobloem/generate-documentation/compare/v0.1.1...v0.1.2) (2024-10-02)
+
+
+### 🔧 Miscellaneous Chores
+
+* **deps:** bump ytanikin/PRConventionalCommits from 1.2.0 to 1.3.0 ([#7](https://github.com/hugobloem/generate-documentation/issues/7)) ([3b462d4](https://github.com/hugobloem/generate-documentation/commit/3b462d46df972008387aae97ab460f343ae8d9fa))
+
 ## [0.1.1](https://github.com/hugobloem/generate-documentation/compare/v0.1.0...v0.1.1) (2024-07-01)
 
 
