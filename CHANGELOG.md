@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/hugobloem/generate-documentation/compare/v0.1.2...v0.1.3) (2025-08-19)
+
+
+### 🔧 Miscellaneous Chores
+
+* **deps:** bump actions/checkout from 4 to 5 ([#9](https://github.com/hugobloem/generate-documentation/issues/9)) ([955a36e](https://github.com/hugobloem/generate-documentation/commit/955a36e4cc145de7e2707c973f45d66e190220ea))
+
 ## [0.1.2](https://github.com/hugobloem/generate-documentation/compare/v0.1.1...v0.1.2) (2024-10-02)
 
 
