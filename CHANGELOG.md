@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.4](https://github.com/hugobloem/generate-documentation/compare/v0.1.3...v0.1.4) (2025-09-04)
+
+
+### 🔧 Miscellaneous Chores
+
+* **deps:** bump actions/setup-python from 5 to 6 ([#11](https://github.com/hugobloem/generate-documentation/issues/11)) ([4c7883d](https://github.com/hugobloem/generate-documentation/commit/4c7883dd82f6e3e619d4408183acad46003557e0))
+
 ## [0.1.3](https://github.com/hugobloem/generate-documentation/compare/v0.1.2...v0.1.3) (2025-08-19)
 
 
